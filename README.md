@@ -2,7 +2,7 @@ This is a script using a POS58 thermal printer to print random Magic: The Gather
 
 
 How to use
-==========
+----------
 
 Make sure you have the Glasgow Haskell Compiler (ghc) installed. First obtain the AllSets.json file from [link]mtgjson.com, place it in this folder, then run install.sh.
 
@@ -14,7 +14,7 @@ If the file isn't found, the script will instead print card data to the console.
 Make sure to set write access to that file (sudo a+w /dev/usb/lp0), this has to be done every time you connect the printer.
 
 Upcoming:
-=========
+---------
 
  * Flip- and split cards (currently, you only get the main side)
 
