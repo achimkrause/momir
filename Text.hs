@@ -1,7 +1,7 @@
 module Text where
 
 import System.IO        
-import Prelude hiding (Left,Right,LeftRight)
+import Prelude hiding (Left,Right)
 import Data.Monoid
 import Printer
 

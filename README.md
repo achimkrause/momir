@@ -11,7 +11,7 @@ Afterwards, run main. You can repeatedly enter a number to print out a random cr
 The script expects the printer to be mounted at /dev/usb/lp0, the corresponding value can be changed in the file Printer.hs (pos58path).
 If the file isn't found, the script will instead print card data to the console.
 
-Make sure to set write access to that file (sudo a+w /dev/usb/lp0), this has to be done every time you connect the printer.
+Make sure to set write access to that file (sudo chmod a+w /dev/usb/lp0), this has to be done every time you connect the printer.
 
 Upcoming:
 ---------
